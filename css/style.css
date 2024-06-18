@@ -1,0 +1,87 @@
+/* MEASURE IN FIGMA - hold down ALT and click on the object */
+* {
+    font-family: 'Figtree';
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    box-shadow: 10px 10px black;
+    max-width: 327px;
+    max-height: 501px;
+    padding: 24px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 240);
+    border-radius: 5%;
+    border: 1px solid black;
+    
+}
+
+.article-img {
+   max-width: 279px;
+   max-height: 200px;
+   border-radius: 5%;
+   
+}
+
+h5 {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 12px;
+    width: 80px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.publish-date {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+
+.description {
+    margin-bottom: 24px;
+    margin-top: 6px;
+    padding-left: -26px;
+}
+
+#profile-pic {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
